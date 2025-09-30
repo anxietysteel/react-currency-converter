@@ -31,17 +31,25 @@ git clone https://github.com/anxietysteel/react-currency-converter.git
 cd react-currency-converter
 npm install
 
+---
+
 ## Запуск dev-сервера:
 
 `npm run dev`
+
+---
 
 ## Сборка проекта:
 
 `npm run build`
 
+---
+
 ## 📸 Скриншоты
 
 (сюда можно вставить скриншот приложения, например screenshot.png)
+
+---
 
 ## 📂 Структура проекта
 src/
