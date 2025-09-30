@@ -26,14 +26,11 @@
 ## 📦 Установка и запуск локально
 Клонируй репозиторий и установи зависимости:
 
-```bash
-git clone https://github.com/anxietysteel/react-currency-converter.git
-cd react-currency-converter
-npm install
-
+`git clone https://github.com/anxietysteel/react-currency-converter.git`
+`cd react-currency-converter`
+`npm install`
 
 ---
-
 
 ## Запуск dev-сервера:
 
