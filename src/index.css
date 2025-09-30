@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  min-width: 320px;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../src/assets/images/minBg.jpg") no-repeat center/cover;
+  opacity: 0.25;
+  z-index: -1;
+  min-height: 100vh;
+}
+
+/* Chrome, Safari, Edge */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.currency-input {
+  @apply border focus:outline-none focus:border-yellow-700 p-1 sm:p-2 self-stretch w-full;
+}
+
+.currency-select {
+  @apply focus:outline-none border self-stretch cursor-pointer p-1 sm:p-2 w-full;
+}
+
+.currency-options {
+  @apply text-center cursor-pointer;
+}
+
+.currency-sign {
+  line-height: 1;
+}
