@@ -29,9 +29,11 @@
 ```bash
 git clone https://github.com/anxietysteel/react-currency-converter.git
 cd react-currency-converter
-npm install`
+npm install
+
 
 ---
+
 
 ## Запуск dev-сервера:
 
