@@ -48,22 +48,9 @@
 
 ## 📸 Скриншоты
 
-(сюда можно вставить скриншот приложения, например screenshot.png)
+(./src/assets/screenshots/cuCoMobile.jpg)
 
 ---
-
-## 📂 Структура проекта
-src/
- ├── components/
- │   ├── App.jsx         # Заголовок и описание
- │   ├── Form.jsx        # Форма с вводом суммы и выбором валют
- │   ├── Select.jsx      # Компонент для выпадающих списков валют
- │   └── Wrapper.jsx     # Обёртка для контента
- ├── assets/
- │   └── images/minBg.jpg # Фоновое изображение
- ├── main.jsx            # Точка входа React
- ├── index.css           # Tailwind + стили
- └── index.html          # HTML-шаблон
 
  ## 📜 Лицензия
 
