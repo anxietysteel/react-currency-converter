@@ -1,16 +1,61 @@
-# React + Vite
+# 💱 React Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![GitHub Pages](https://img.shields.io/badge/demo-online-green)](https://anxietysteel.github.io/react-currency-converter/)
 
-Currently, two official plugins are available:
+Простой и удобный конвертер валют на **React + Vite** с использованием TailwindCSS.  
+Получает актуальные курсы валют через внешнее API и позволяет быстро пересчитать сумму из одной валюты в другую.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Возможности
+- Конвертация валют в реальном времени через API.  
+- Поддержка популярных валют (USD, EUR, RUB, UZS и др.).  
+- Красивый и адаптивный интерфейс (TailwindCSS, grid + flex).  
+- Автоматический деплой на **GitHub Pages**.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Технологии
+- [React 19](https://react.dev/)  
+- [Vite](https://vitejs.dev/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [gh-pages](https://www.npmjs.com/package/gh-pages)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Установка и запуск локально
+Клонируй репозиторий и установи зависимости:
+
+```bash
+git clone https://github.com/anxietysteel/react-currency-converter.git
+cd react-currency-converter
+npm install
+
+## Запуск dev-сервера:
+
+`npm run dev`
+
+## Сборка проекта:
+
+`npm run build`
+
+## 📸 Скриншоты
+
+(сюда можно вставить скриншот приложения, например screenshot.png)
+
+## 📂 Структура проекта
+src/
+ ├── components/
+ │   ├── App.jsx         # Заголовок и описание
+ │   ├── Form.jsx        # Форма с вводом суммы и выбором валют
+ │   ├── Select.jsx      # Компонент для выпадающих списков валют
+ │   └── Wrapper.jsx     # Обёртка для контента
+ ├── assets/
+ │   └── images/minBg.jpg # Фоновое изображение
+ ├── main.jsx            # Точка входа React
+ ├── index.css           # Tailwind + стили
+ └── index.html          # HTML-шаблон
+
+ ## 📜 Лицензия
+
+MIT License. Свободно для использования и модификации.
