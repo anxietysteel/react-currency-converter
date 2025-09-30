@@ -48,7 +48,9 @@
 
 ## 📸 Скриншоты
 
-(./src/assets/screenshots/cuCoMobile.jpg)
+| Mobile | Desktop |
+|--------|---------|
+|![Mobile](./src/assets/screenshots/cuCoMobile.jpg) | ![Desktop](./src/assets/screenshots/cuCoDesktop.jpg)|
 
 ---
 
