@@ -27,7 +27,9 @@
 Клонируй репозиторий и установи зависимости:
 
 `git clone https://github.com/anxietysteel/react-currency-converter.git`
+
 `cd react-currency-converter`
+
 `npm install`
 
 ---
